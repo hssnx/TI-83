@@ -30,5 +30,4 @@ def main():
     except ZeroDivisionError:
         print("Cannot divide by 0.")
 
-if __name__ == "__main__":
-    main()
+main()

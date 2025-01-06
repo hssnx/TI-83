@@ -23,6 +23,4 @@ def main():
 
     summit = (round(h, 2), round(k, 2))
     print("Summit: ", summit)
-
-if __name__ == "__main__":
-    main()
+main()

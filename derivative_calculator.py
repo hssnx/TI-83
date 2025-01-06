@@ -19,6 +19,4 @@ def main():
 
     derivative = (equation_func(x_value + h) - equation_func(x_value)) / h
     print("Derivative =", round(derivative, 2))
-
-if __name__ == "__main__":
-    main()
+main()
