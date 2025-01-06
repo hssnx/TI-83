@@ -35,4 +35,6 @@ def main():
     else:
         print("One real solution: x0 = "+"{:.5f}".format(s[0]))
 
-main()
+if __name__ == "__main__":
+    main()
+    
