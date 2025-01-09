@@ -1,3 +1,6 @@
+# Quadratic Solver
+# Formula used: ax^2 + bx + c = 0
+
 def get_float(prompt):
     while True:
         try:

@@ -1,3 +1,6 @@
+# Quadratic to Canonical Form Calculator
+# Formula used: f(x) = a(x - h)^2 + k
+
 def get_float(prompt):
     while True:
         try:

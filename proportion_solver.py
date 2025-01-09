@@ -1,3 +1,6 @@
+# Proportion Solver
+# Formula used: a1/a2 = b1/b2
+
 def get_value(prompt):
     value = input(prompt).strip().lower()
     return 'x' if value == 'x' else float(value)

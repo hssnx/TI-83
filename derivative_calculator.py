@@ -1,3 +1,6 @@
+# Derivative Calculator
+# Formula used: f'(x) = lim (h->0) [f(x+h) - f(x)] / h
+
 def create_equation_function(equation_str):
     allowed_chars = set("0123456789+-*/(). xX^")
     if not set(equation_str).issubset(allowed_chars):
